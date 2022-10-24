@@ -54,7 +54,7 @@ debian/control: debian/control.in debian/rules
 config.make:
 	dh_testdir
 	CFLAGS="$(CFLAGS)" . $(GNUSTEP_SETUP); \
-		./configure --with-gnustep --enable-debug --disable-strip
+		./configure --with-gnustep --enable-mysql  --enable-xml --enable-postgresql --enable-openldap
 
 build: config.make build-stamp controlfiles
 build-stamp:

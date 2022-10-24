@@ -1,3 +1,9 @@
+sope (4.9.r1664~octopuce-20221024) unstable; urgency=low
+
+  * easier packaging for Debian
+
+ -- Benjamin Sonntag <benjamin@octopuce.fr>  Mon, 24 Oct 2022 17:00:12 +0200
+
 sope (4.9.r1664) unstable; urgency=low
 
   * added package for SBJson
